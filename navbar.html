@@ -54,12 +54,10 @@
       text-transform: uppercase;
       font-weight: 700;
       color:rgba(38, 206, 38, 0);
-      
-      
       position: absolute;
-
-    }
-
+      bottom:40px;
+    }  
+ 
     button span.icon {
       width: 100px;
       height: 100px;
@@ -88,12 +86,8 @@
           left: -19px;
           top: -10px;
         }
-       
-
-
-      
-
-    button::after {
+   
+        button::after {
       content: "";
       width: 40px;
       height: 40px;
@@ -104,40 +98,36 @@
       position: absolute;
       right: -19px;
       top: -10px;
-          
-
     }
 
     button:hover span.icon {
       top: -70px;
       
       border: 10px solid rgba(128, 128, 128, 1);
-      background-color: yellow;
-      
+      background-color: rgb(38, 206, 38);
     }
+      
 
     button:hover span.text{
       color:rgba(38, 206, 38, 1);
-     
     }
+     
   
     button:hover::after{
       border-top: 10px solid rgba(128, 128, 128, 1);
-      
     }
+      
 
     button:hover::before {
       border-top: 10px solid rgba(128, 128, 128, 1);
-      
     }
-
-
+ 
     a{
       text-decoration: none;
       width:20%;
       height: 100%; 
-
     }
+
   </style>
 
 </head>
